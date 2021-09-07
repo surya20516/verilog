@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/vlsi/mytest/tb_ripple_isim_beh.exe" -prj "E:/vlsi/mytest/tb_ripple_beh.prj" "work.tb_ripple" "work.glbl" 

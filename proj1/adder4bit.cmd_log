@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/vlsi/proj1/adder4bit.xst" -ofn "E:/vlsi/proj1/adder4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -uc const1.ucf -p xc7a100t-csg324-3 adder4bit.ngc adder4bit.ngd  

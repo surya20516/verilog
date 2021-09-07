@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/vlsi/proj1/ripple.xst" -ofn "E:/vlsi/proj1/ripple.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const1.ucf -uc const.ucf -p xc7a100t-csg324-3 ripple.ngc ripple.ngd  

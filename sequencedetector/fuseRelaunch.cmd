@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/vlsi/sequencedetector/tb_seq_melay_isim_beh.exe" -prj "E:/vlsi/sequencedetector/tb_seq_melay_beh.prj" "work.tb_seq_melay" "work.glbl" 

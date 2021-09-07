@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/vlsi/sequencedetector/seq_melay.xst" -ofn "E:/vlsi/sequencedetector/seq_melay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 seq_melay.ngc seq_melay.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o seq_melay_map.ncd seq_melay.ngd seq_melay.pcf 
+par -w -intstyle ise -ol high -mt off seq_melay_map.ncd seq_melay.ncd seq_melay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml seq_melay.twx seq_melay.ncd -o seq_melay.twr seq_melay.pcf 

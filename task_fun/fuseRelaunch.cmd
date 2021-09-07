@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/vlsi/task_fun/tb_onoff_isim_beh.exe" -prj "E:/vlsi/task_fun/tb_onoff_beh.prj" "work.tb_onoff" "work.glbl" 

@@ -1,0 +1,28 @@
+Command line:
+   tb_seq_melay_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57409
+
+Tue Jun 29 17:02:25 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5466.81 Meg
+
+ Total Signals          : 17
+ Total Nets             : 17
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 113
+
+ Total Simulation Time: 0.625 sec
+
+ Current Memory Usage: 4994.95 Meg
+
+Tue Jun 29 17:04:32 2021
+
